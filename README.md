@@ -23,10 +23,10 @@ A complete CRUD API developed with Django REST Framework (DRF). Supports all sta
 ### 1. Clone the repository
 
 ```bash
-- git clone https://github.com/yourusername/tarea-1-abel.git
+- git clone https://github.com/Bootcamp-IA-MAD-P7/tarea-1-abel
 - cd tarea-1-abel
-- python -m venv .env
-- source env/bin/activate  # On Windows: env\Scripts\activate
+- python -m venv .venv
+- source venv/bin/activate  # On Windows: venv\Scripts\activate
 - pip install -r requirements.txt
 - python manage.py migrate
 - python manage.py runserver
