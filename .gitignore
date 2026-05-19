@@ -1,0 +1,33 @@
+# Entornos virtuales
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de compilación de Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Base de datos local
+db.sqlite3
+
+# Variables de entorno y configuraciones secretas
+.env
+local_settings.py
+
+# Archivos de registro (logs)
+*.log
+local_zinnia.log
+
+# Carpetas de estáticos y medios (en producción se manejan por separado)
+/static/
+/media/
+
+# Archivos del IDE
+.idea/
+.vscode/
+*.swp
+*.swo
