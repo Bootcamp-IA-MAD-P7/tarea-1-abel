@@ -1,5 +1,7 @@
 # CRUD API built with Django REST Framework
 
+[Go to the task of Django](#2-solución-tarea-1)
+
 A complete CRUD API developed with Django REST Framework (DRF). Supports all standard operations for resource management.
 
 ## 🚀 Features
@@ -26,6 +28,8 @@ A complete CRUD API developed with Django REST Framework (DRF). Supports all sta
 - python -m venv .env
 - source env/bin/activate  # On Windows: env\Scripts\activate
 - pip install -r requirements.txt
+- python manage.py migrate
+- python manage.py runserver
 ```
 
 ___
